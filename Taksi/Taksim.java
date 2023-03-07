@@ -9,6 +9,7 @@ public class Taksim {
         double ucretİki=ucret+10;
         double ucretUc= ucretİki>20?ucretİki:20;
         System.out.println("ödemeniz gereken ücret : "+ ucretUc);
+        System.out.println("merhaba ben master");
     }
     
 }
