@@ -8,8 +8,10 @@ public class Daire{
 
         double pi = 3.14;
         double alan= pi*r*r;
-        
+        double cevre= 2*pi*r;
+
         System.out.println("dairenin alanı :"+ alan);
+        System.out.println("dairenin çevresi : "+cevre);
     }
 }
 
