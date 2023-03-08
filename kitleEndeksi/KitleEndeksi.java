@@ -10,6 +10,11 @@ public class KitleEndeksi {
         boy = in.nextDouble();
         endeks = kilo/(boy*boy);
         System.out.println("vücut kitle endeksiniz :" + endeks);
+        String a,b,c,d, endeks2; 
+        a = "obez"; b= "obez değil";
+
+        endeks2 = endeks > 40 ?a:b;
+        System.out.println(endeks2);
     
     
     
