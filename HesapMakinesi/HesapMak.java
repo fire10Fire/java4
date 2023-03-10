@@ -13,17 +13,22 @@ public class HesapMak {
         System.out.println("1-toplama \n2-çıkarma \n3-çarpma\n4-bölme");
         System.out.print("seçiminiz : ");
         int c = in.nextInt();
-        if(c==1){
-            System.out.println("toplama : "+ (a+b));
-
-        }else if(c==2){
-            System.out.println("çıkarma : "+(a-b));
-        }else if(c==3){
-            System.out.println("çarpma : "+(a*b));
-        }else if(c==4){
-            System.out.println("bölme : "+(a/b));
-        }else 
-        System.out.println(" yanlış seçim yaptınız! ");
+        switch (c){
+            case 1:
+            System.out.println("Toplama : "+ (a+b));
+            break;
+            case 2:
+            System.out.println("Çıkarma : "+(a-b));
+            break;
+            case 3:
+            System.out.println("çarpma : "+ (a*b));
+            break;
+            case 4 :
+            System.out.println("bölme : "+ (a/b));
+            break;
+            default:
+            System.out.println("yanlış tuşlama yaptınız!");
+        }
 
     }
 }
